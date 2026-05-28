@@ -56,7 +56,6 @@ export function initPlayground() {
     matchBrackets: true,
     autoCloseBrackets: true,
     lineWrapping: false,
-    viewportMargin: Infinity, // grow with content; size capped via CSS
     extraKeys: {
       // ⌘/Ctrl + Enter to run.
       'Cmd-Enter':  () => run(),
